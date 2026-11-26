@@ -2,11 +2,6 @@
 const B = 2;
 const N = B * B;
 
-// 288 4x4 puzzles with a unique solution.
-// Source: https://github.com/Fauzanium/kka-sudoku-solving-algorithms (4x4_sudoku_unique_solution.csv)
-import { PUZZLES } from "./puzzle";
-
-
 // Get some element from html
 const subMenu = document.querySelector("#nav-bar").children[4].children[1];         
 const speedButton = document.querySelector("#nav-bar").children[4].children[0];
